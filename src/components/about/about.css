@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.about{
+    font-family: var(--font-family);
+    padding: 6rem 6rem;
+    color: white;
+}
+
+.about h1{
+    margin-bottom: 1rem;
+}
+.about-skills ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-skills li{
+    margin-right: 30px;
+    background: #0061FF;
+    background: linear-gradient(to right, #0061FF 0%, #60EFFF 81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 2rem;
+
+}
+
+.about-desc > *{
+    margin-bottom: 2rem;
+}
+
+.about-desc{
+    font-size: 1.5rem;
+}
+
+.about-desc h3{
+    letter-spacing: 2px;
+}
+
+.about-desc p{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+@media screen and(max-width:700px) {
+    .about{
+        padding: 1.8rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .about{
+        padding: 1.5rem;
+    }
+
+    .about-desc h3{
+        font-size: 1.5rem;
+    }
+
+    .about-desc p {
+        font-size: 1rem;
+    }
+    .about-skills li{
+        font-size: 1rem;
+    }
+}

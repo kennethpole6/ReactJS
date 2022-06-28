@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.project{
+    font-family: var(--font-family);
+    padding: 4rem 6rem;
+    color: white;
+}
+
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+}
+
+.project h1{
+    margin-bottom: 2rem;
+}
+
+.project-card-container{
+    color: white;
+
+}
+
+.project-card{
+    width: 30rem;
+}
+
+.project-badge{
+    font-size: .6rem;
+    font-weight: 500;
+    background: white;
+    width: fit-content;
+    padding: 2px 4px;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: .2rem;
+}
+
+.project-card h1{
+    font-size: 1.5rem;
+    margin-bottom: .8rem;
+}
+
+.project-card p{
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    word-spacing: 6px;
+    margin-bottom: 1rem;
+}
+
+.project-card img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: .5rem;
+}
+
+.project-cta{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.project-cta:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1050px) {
+    .project-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and(max-width:700px) {
+    .project-card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .project{
+        padding: 1rem;
+    }
+    .project-card{
+        width: 20rem;
+    }
+
+    .project-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}

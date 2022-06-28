@@ -18,7 +18,7 @@
 
 .header-content p{
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.8rem;
 }
 
@@ -50,12 +50,23 @@
     .header{
         flex-direction: row;
     }
+
+    .header-illustration img{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width:550px){
     .header{
-        height: 100vh;
+        height: 90vh;
         padding: 2rem;
+    }
+
+    .header-content {
+        margin: 2rem auto;
     }
     
     .header-desc{
@@ -67,7 +78,11 @@
     }
 
     .header-illustration img{
-        display: none;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
 

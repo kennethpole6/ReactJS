@@ -1,14 +1,13 @@
 import React, {useState} from 'react'
 import './navbar.css'
 import { RiMenu3Line, RiCloseLine, RiBubbleChartFill} from 'react-icons/ri'
-import logo from '../../assets/logo.svg'
 const Navbar = () => {
   const [ToggleMenu, SetToggleMenu] = useState(false)
   return (
     <div className='navbar'>
       <div className='navbar-links'>
         <div className='navbar-logo'>
-         <img src={logo} alt="logo" />
+         <a href="#"><RiBubbleChartFill /></a>
         </div>
         <div className='navbar-links-container'>
           <a href="#">Home</a>

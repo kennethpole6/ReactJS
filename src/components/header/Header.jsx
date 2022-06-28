@@ -1,7 +1,7 @@
 import React from 'react'
-import './project.css'
+import './header.css'
 import illustration from '../../assets/illustration.svg'
-const Project = () => {
+const Header = () => {
   return (
     <div className='header' id='home'>
       <div className='header-content'>
@@ -16,4 +16,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Header

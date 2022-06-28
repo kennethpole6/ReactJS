@@ -1,4 +1,5 @@
-export { default as Project } from '../components/projects/Project'
+export { default as Header } from '../components/header/Header'
+export { default as Project } from '../components/project/Project'
 export { default as Navbar } from '../components/navbar/Navbar'
 export { default as About } from '../components/about/About'
 export { default as Footer } from '../components/footer/Footer'
