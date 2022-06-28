@@ -60,33 +60,6 @@ body{
   }
 }
 
-.hover-animation {
-  display: inline-block;
-  position: relative;
-  color: linear-gradient(89.97deg, #fa5c5c 1.84%, #F89B29 102.67%);
-}
-
-.hover-animation:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  background-color: #eb4242;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-
-
-
 .section_padding {
   padding: 4rem 6rem;
 }
