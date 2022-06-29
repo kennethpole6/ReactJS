@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about-section'>
        <h1 className='gradient__text'>About Me</h1> 
         <div className='about-desc'>
           <h3>I'm a Front-End Developer all the way from designing to development and available for full-time roles or freelance projects.</h3>

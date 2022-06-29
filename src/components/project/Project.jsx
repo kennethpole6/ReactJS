@@ -5,9 +5,12 @@ import swab from '../../assets/swab.svg'
 import richworld from '../../assets/richworld.svg'
 import rg from '../../assets/RG.svg'
 import bdpc from '../../assets/bdpc.svg'
+
+
+
 const Project = () => {
   return (
-    <div className='project'>
+    <div className='project' id='project-section'>
         <h1 className='gradient__text'>Recent Projects</h1>
         <div className='project-cards'>
             <Cards 

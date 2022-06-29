@@ -1,18 +1,20 @@
 import React, {useState} from 'react'
 import './navbar.css'
 import { RiMenu3Line, RiCloseLine, RiBubbleChartFill} from 'react-icons/ri'
+
+
 const Navbar = () => {
   const [ToggleMenu, SetToggleMenu] = useState(false)
   return (
-    <div className='navbar'>
+    <div className='navbar tracking-in-expand'>
       <div className='navbar-links'>
-        <div className='navbar-logo'>
-         <a href="#"><RiBubbleChartFill /></a>
+        <div className='navbar-logo jello-horizontal'>
+         <a href="."><RiBubbleChartFill /></a>
         </div>
         <div className='navbar-links-container'>
-          <a href="#">Home</a>
-          <a href="#">Projects</a>
-          <a href="#">About</a>
+          <a href=".">Home</a>
+          <a href="#project-section">Projects</a>
+          <a href="#about-section">About</a>
         </div>
       </div>
       <div className='navbar-cta'>

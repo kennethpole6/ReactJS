@@ -26,11 +26,11 @@
 
 .footer-social a{
     margin: .8rem;
-    color: #bdbdbd;
+    color: var(--gradient-text);
 }
 
-.footer-social a{
-    color: var(--gradient-text);
+.footer-social a:hover{
+    color: #fa5c5c;
 }
 
 @media screen and (max-width:700px) {

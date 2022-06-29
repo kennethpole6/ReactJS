@@ -3,15 +3,13 @@ import './project.css'
 
 const Cards = ({img, badge, heading, desc}) => {
   return (
-    <div>
-        <div className='project-card-container'>
-            <div className='project-card'>
-                <img src={img} alt="Project Illustrations" />
-                <p className='project-badge'>{badge}</p>
-                <h1 className='gradient__text'>{heading}</h1>
-                <p>{desc}</p>
-                <a href="#" className='project-cta'>Learn More</a>
-            </div>
+    <div className='project-card-container'>
+        <div className='project-card'>
+            <img src={img} alt="Project Illustrations" />
+            <p className='project-badge'>{badge}</p>
+            <h1 className='gradient__text'>{heading}</h1>
+            <p>{desc}</p>
+            <a href="#" className='project-cta'>Learn More</a>
         </div>
     </div>
   )

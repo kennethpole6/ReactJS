@@ -40,6 +40,10 @@
     line-height: 25px;
 }
 
+.navbar-cta a:hover{
+    background-color: #f37f7f;
+}
+
 .navbar-links a:hover{
     text-decoration: underline;
     color: #fa5c5c;
