@@ -58,13 +58,21 @@
 }
 
 .project-cta{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: fit-content;
     text-decoration: none;
     color: white;
     font-weight: 600;
     margin-bottom: 1rem;
 }
+
+.rightArrow{
+    margin-left: 6px;
+    font-size: 1.2rem;
+}
+
 
 .project-cta:hover{
     text-decoration: underline;

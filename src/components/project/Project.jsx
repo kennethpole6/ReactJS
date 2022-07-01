@@ -6,8 +6,6 @@ import richworld from '../../assets/richworld.svg'
 import rg from '../../assets/RG.svg'
 import bdpc from '../../assets/bdpc.svg'
 
-
-
 const Project = () => {
   return (
     <div className='project' id='project-section'>

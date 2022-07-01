@@ -1,6 +1,6 @@
 import './App.css';
-import { FiCodesandbox } from "react-icons/fi";
 import {Header,Project, Navbar, About, Footer} from './components'
+
 const App = () => {
   return (
     <div className='App'>
