@@ -14,6 +14,7 @@ const About = () => {
             <li>CSS3/SCSS</li>
             <li>BOOTSTRAP 5</li>
             <li>ReactJS</li>
+            <li>GIT / GitHub</li>
             <li>Figma</li>
           </ul>
        </div>

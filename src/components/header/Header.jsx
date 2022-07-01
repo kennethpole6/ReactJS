@@ -6,7 +6,7 @@ const Header = () => {
     <div className='header' id='home'>
       <div className='header-content'>
         <p className='header-desc'>Hello I'm</p>
-        <h1 className='gradient__text'>Kenneth Pole</h1>
+        <h1 className='gradient__text tracking-in-expand'>Kenneth Pole</h1>
         <p>Front-End Developer based in Quezon City, Philippines creating and delivering end-to-end user interface and experience design and development for software products.</p>
       </div>
       <div className='header-illustration'>
